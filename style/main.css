@@ -1,0 +1,20 @@
+
+
+.KatMenu{
+    position: absolute;
+  display:flex;
+  flex-direction: column;
+  background-color:green;
+  width:8em;
+}
+.KatMenu ul li{
+    list-style-type:none;
+    padding:10px;
+   
+
+}
+.KatMenu ul li:hover{
+    background: #2a6d2d;
+    width:100%;
+    padding-left:0em;
+}
