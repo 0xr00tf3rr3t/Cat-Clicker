@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <titPage Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -14,28 +14,24 @@
 </head>
 <body>
     <div class='KatMenu'>
-        <ul class='katList'>
-        
+        <ul class='katList'>        
         </ul>
-    
+
     </div>
-    <div class='container'>
-    <div class='clicker'>
-    </div>
-    
+    <div class='kat-container'>
+      
+</div>
 
     <script id="katContent" type="text/x-handlebars-template">
-        <p id='katName'>{{katName}}</p>
-        <img id='katImage' src='{{katPicture}}'>
-       </div>
-       <p class='katCount'>Number of Clicks:{{clicks}}</p>
+        <p id='katName'>{{name}}</p>
+        <img id='katImage' src='{{url}}'>
+       <p class='katCount'>Number of Clicks:<span class='clicksNumber'>0</span></p>
       </script>
-
 
       <script id="katMenuItem" type="text/x-handlebars-template">
         <li>
           <p>{{name}}</p>
-          <img src='{{url}}'>
+
         </li>
       </script>
 

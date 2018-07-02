@@ -4,17 +4,21 @@
     position: absolute;
   display:flex;
   flex-direction: column;
-  background-color:green;
+  background-color:rgb(103, 231, 182);
   width:8em;
 }
 .KatMenu ul li{
     list-style-type:none;
-    padding:10px;
-   
-
 }
 .KatMenu ul li:hover{
-    background: #2a6d2d;
+    background: #196f7a;
     width:100%;
     padding-left:0em;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.container{
+    margin-left:15em;
 }
