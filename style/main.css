@@ -22,3 +22,10 @@ ul{
 .container{
     margin-left:15em;
 }
+.kat-container{
+    padding-left: 10em;
+
+}
+#katName{
+    font-size: 3rem;
+}
